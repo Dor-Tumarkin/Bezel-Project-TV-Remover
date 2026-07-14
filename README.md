@@ -1,4 +1,4 @@
-# Bezel-Project-TV-Remover
+# Bezel Project TV Frame  Remover
 Remove the ugly static TV from Bezel Project bezels so that you can enjoy the art, but also enjoy the nice shader effects of reflective TV frames which are available in MegaBezel or KokoAIO.
 
 ## What Does This Do
@@ -31,8 +31,9 @@ No AI was used in writing this code. I really wanted Opus 4.8 to do it for me bu
 ## How to Use, For Real
 1. Batocera v43
 2. Get Mega Bezel from Content Store
-3. Get Bezel Project from Content Store/Screenscraper, I don't quite remember the process to get the proper bezels
-4. Recommended - create a base folder and copy your decorations to a PC before running script, because changes are in-place and if you don't like the outcome that's too bad
-5. Place script in base folder and run (requires pip install pillow)
+3. Get Bezel Project from Content Store and metadata from Screenscraper
+4. Recommended - create a base folder and copy your decorations to an external PC before running script, because changes are in-place and if you don't like the outcome you can roll it back without scraping gigabytes of art again
+5. Place script in base folder and run (requires pip install pillow) - don't forget to modify `folder_paths` to suit your needs
 6. Copy back into Batocera
-7. Set Viewport Zoom in Shader Parameters to 115.0 to enjoy a full screen experience
+7. Set Viewport Zoom in Shader Parameters to 115.0 to enjoy a full screen experience. For example, if you use the regular MegaBezel shader in Batocera, this can be done by adding the line `HSM_VIEWPORT_ZOOM = 115` to /usr/share/batocera/shaders/bezel/Mega_Bezel/Presets/BATOCERA__MBZ.slangp
+8. Use the following settings: SHADER EST: MEGA-BEZEL, DECORATION SET: thebezelproject, GAME ASPECT RATIO: AUTO and ALLOW ROTATION: OFF (this is because Mega Bezel already rotates vertical games, so enabling it here causes it to get rotated twice and end up on its side)

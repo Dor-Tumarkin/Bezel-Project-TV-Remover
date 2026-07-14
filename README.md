@@ -34,3 +34,5 @@ No AI was used in writing this code. I really wanted Opus 4.8 to do it for me bu
 3. Get Bezel Project from Content Store/Screenscraper, I don't quite remember the process to get the proper bezels
 4. Recommended - create a base folder and copy your decorations to a PC before running script, because changes are in-place and if you don't like the outcome that's too bad
 5. Place script in base folder and run (requires pip install pillow)
+6. Copy back into Batocera
+7. Set Viewport Zoom in Shader Parameters to 115.0 to enjoy a full screen experience

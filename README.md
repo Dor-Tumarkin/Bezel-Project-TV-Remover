@@ -18,10 +18,19 @@ In my home arcade Batocera build I applied this to Bezel Project bezels for:
 * FBNeo
 * NeoGeo
 * Atomiswave
+* Naomi
+
 All look great so far.
 
 ## Caveats
 I didn't go over all bezels to see if they all look perfect. I skimmed through a couple of hundred and they looked fine.
 Take this as-is. Fix it, use it elsewhere, I don't care.
 
-No AI was used in writing this code. I really wanted Opus 4.8 to do it for me but it shat the bed and ate all my tokens before I started from scratch.
+No AI was used in writing this code. I really wanted Opus 4.8 to do it for me but it shat the bed and ate all my tokens doing a terrible job, before I wrote this from scratch. 
+
+## How to Use, For Real
+1. Batocera v43
+2. Get Mega Bezel from Content Store
+3. Get Bezel Project from Content Store/Screenscraper, I don't quite remember the process to get the proper bezels
+4. Recommended - create a base folder and copy your decorations to a PC before running script, because changes are in-place and if you don't like the outcome that's too bad
+5. Place script in base folder and run (requires pip install pillow)

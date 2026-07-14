@@ -21,6 +21,7 @@ transparent = (0, 0, 0, 0)
 
 known_abnormals = ("aburner2.png")
 
+# for bezels with weird amounts of transparency that do not suit their aspect ratio for some reason
 known_aspects = {"rougien.png":"3:4"}
 
 viewports = {

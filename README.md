@@ -1,7 +1,7 @@
 # Bezel-Project-TV-Remover
 Remove the ugly static TV from Bezel Project bezels so that you can enjoy the art, but also enjoy the nice shader effects of reflective TV frames which are available in MegaBezel or KokoAIO.
 
-# What Does This Do
+## What Does This Do
 It calculates the volume of non-transparent pixels in a PNG image, and according to a very arbitrary range-picking ("it felt right!") determines roughly the aspect ratio of the transparent viewport:
 * 3:4 (Standard CRT)
 * 4:3 (vertical games, like PacMan and 1941)
@@ -20,7 +20,7 @@ In my home arcade Batocera build I applied this to Bezel Project bezels for:
 * Atomiswave
 All look great so far.
 
-# Caveats
+## Caveats
 I didn't go over all bezels to see if they all look perfect. I skimmed through a couple of hundred and they looked fine.
 Take this as-is. Fix it, use it elsewhere, I don't care.
 

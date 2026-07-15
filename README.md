@@ -3,6 +3,8 @@ Remove the ugly static TV from Bezel Project bezels so that you can enjoy the ar
 
 See ga2_original.png with the TV frame vs. ga2.png.
 
+Follow the guide below to achieve the results in ga2_photo.jpg with Bezel Project and MegaBezels on Batocera (tested on v43)
+
 ## What Does This Do
 It calculates the volume of non-transparent pixels in a PNG image, and according to a very arbitrary range-picking ("it felt right!") determines roughly the aspect ratio of the transparent viewport:
 * 3:4 (Standard CRT)

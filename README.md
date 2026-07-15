@@ -40,5 +40,5 @@ No AI was used in writing this code. I really wanted Opus 4.8 to do it for me bu
 5. Place script in base folder and run (requires pip install pillow) - don't forget to modify `folder_paths` to suit your needs
 6. Run script
 7. Copy back into Batocera
-8. Set Viewport Zoom in Shader Parameters to 115.0 to enjoy a full screen experience. For example, if you use the regular MegaBezel shader in Batocera, this can be done by adding the line `HSM_VIEWPORT_ZOOM = 115` to /usr/share/batocera/shaders/bezel/Mega_Bezel/Presets/BATOCERA__MBZ.slangp
-9. Use the following settings: SHADER EST: MEGA-BEZEL, DECORATION SET: thebezelproject, GAME ASPECT RATIO: AUTO and ALLOW ROTATION: OFF (this is because Mega Bezel already rotates vertical games, so enabling it here causes it to get rotated twice and end up on its side)
+8. Set Viewport Zoom in Shader Parameters to 115.0 to enjoy a full screen experience. For example, if you use the regular MegaBezel shader in Batocera, this can be done by adding the line `HSM_VIEWPORT_ZOOM = 115` to `/usr/share/batocera/shaders/bezel/Mega_Bezel/Presets/BATOCERA__MBZ.slangp`
+9. Use the following settings: SHADER SET: MEGA-BEZEL, DECORATION SET: thebezelproject, GAME ASPECT RATIO: AUTO and ALLOW ROTATION: OFF (this is because Mega Bezel already rotates vertical games, so enabling it here causes it to get rotated twice and end up on its side)
